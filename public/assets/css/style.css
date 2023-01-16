@@ -1,0 +1,90 @@
+.body{
+    background-color: #7b9b92;
+}
+.nav-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo{
+    color: #fff;
+    font-size: 150%;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.link-nav-navbar{
+    width: 20%;
+}
+.link-nav-navbar li{
+    display: flex;
+    list-style: none;
+    margin: 5%;
+}
+.link-nav-navbar li ul{
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+}
+.link-nav-navbar li ul a{
+    text-decoration: none;
+}
+.btn-login{
+    border: 1px solid #1565c0;
+    border-radius: 50px;
+}
+.btn-login a{
+    color: #fff;
+    font-weight: 600;
+}
+/* Head Land */
+.head-land{
+    width: 50% !important;
+    margin: 0 !important;
+}
+.title-land{
+    color: #fff;
+}
+.title-land,
+.sub-title-land{
+    margin: 5% 0;
+}
+.some-btn-land{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.btn-reg-land{
+    background-color: #4e9cf5;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 15% 40%;
+}
+.btn-vid-land{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    padding: 5% 30%;
+    width: 200%;
+}
+.btn-vid-land .bi-play-btn::before{
+    font-size: 200%;
+    margin: 0 5%;
+    vertical-align: middle;
+}
+.img-logo{
+    width: 30%;
+    height: 70%;
+}
+/* Register Page */
+.reg-img-side{
+    width: 100%;
+    height: 100%;
+}
+.reg-title{
+    text-align: center;
+}
+.reg-form{
+    display: flex;
+    flex-direction: column;
+}
