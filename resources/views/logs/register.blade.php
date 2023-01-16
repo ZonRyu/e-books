@@ -15,19 +15,20 @@
         </div>
         <div class="reg-place">
             <h1 class="reg-title">Register</h1>
-            <form class="reg-form">
-                <div class="box-input">
-                    <input name="nama" type="text" placeholder="Nama">
-                    <input name="email" type="email" placeholder="Email">
+            <form>
+                <div class="mb-3 d-flex" style="gap: 1%;">
+                  <input type="text" class="form-control" name="nama" placeholder="Nama">
+                  <input type="email" class="form-control" name="email" placeholder="Email">
                 </div>
-                <div class="box-input">
-                    <input name="kabupaten" type="texxt" placeholder="Kabupaten">
-                    <input name="telepon" type="number" placeholder="Nomor Telepon">
+                <div class="mb-3">
+                    <input type="text" class="form-control" name="kabupaten" placeholder="Kabupaten">
                 </div>
-                <input name="password" type="password" placeholder="Password">
-                <button type="submit">Submit</button>
-            </form>
+                <div class="mb-3">
+                  <input type="password" class="form-control" name="handphone">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
         </div>
     </div>
 </body>
-</html>
+</html> 

@@ -84,7 +84,7 @@
 .reg-title{
     text-align: center;
 }
-.reg-form{
-    display: flex;
-    flex-direction: column;
+.reg-place{
+    width: 50%;
 }
+
